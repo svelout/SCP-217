@@ -1,6 +1,10 @@
 # SCP-217
-| Left-Aligned  | Center Aligned  | Right Aligned |
-|:------------- |:--------------:| -------------:|
-| Row 1         | Cell 2          | Cell 3        |
-| Row 2         | Cell 5          | Cell 6        |
-| Row 3         | Cell 8          | Cell 9        |
+
+# Config
+| Имя  | Описание  | Тип | Стандартное значение 
+|:-------------   |:---------------:|:-------------:| -------------:
+| IsEnabled       |  Включение/Выключение плагина   | Boolean       | True
+| Debug           |  Включение/Выключение Дебаг     | Boolean       | False
+| InfectionChance |  Шанс заражения вирусом         | Double        | 40.50
+| MinutesToDie    |  Время до начала действия SCP-273(в минутах) | Intenger | 1
+| HealthP         |  Процент максимального здоровья которое отнимается раз в 3 секунды | Intenger | 15
